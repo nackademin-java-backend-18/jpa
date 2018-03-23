@@ -15,13 +15,13 @@
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 
             <!-- Possible values: none, drop-and-create, create, drop
-                See: https://docs.oracle.com/javaee/7/tutorial/persistence-intro005.htm
+                See: https://javaee.github.io/tutorial/persistence-intro006.html
              -->
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />
 
             <property name="hibernate.show_sql" value="false" />
             <property name="hibernate.format_sql" value="false" />
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect" />
 
             <!-- Configuring Connection Pool -->
             <property name="hibernate.c3p0.min_size" value="5" />
