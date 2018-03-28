@@ -21,7 +21,7 @@
 
             <property name="hibernate.show_sql" value="false" />
             <property name="hibernate.format_sql" value="false" />
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL55Dialect" />
 
             <!-- Configuring Connection Pool -->
             <property name="hibernate.c3p0.min_size" value="5" />
